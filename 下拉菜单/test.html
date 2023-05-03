@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+  <div class="navbar">
+    <a href="#" onmouseover="showDropdown(event, 'list1')">Link 1</a>
+    <a href="#" onmouseover="showDropdown(event, 'list2')">Link 2</a>
+    <a href="#" onmouseover="showDropdown(event, 'list3')">Link 3</a>
+  </div>
+
+  <div id="dropdown" class="dropdown">
+    <ul id="list1" class="list">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+    <ul id="list2" class="list">
+      <li>Item A</li>
+      <li>Item B</li>
+      <li>Item C</li>
+    </ul>
+    <ul id="list3" class="list">
+      <li>Apple</li>
+      <li>Banana</li>
+      <li>Orange</li>
+    </ul>
+  </div>
+
+</body>
+
+<script type="text/javascript" src="main.js"></script>
+
+</html>
